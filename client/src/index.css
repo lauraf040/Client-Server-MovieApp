@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.datatableHome {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em auto;
+}
+.form {
+  margin: 3rem auto;
+  width: 95%;
+  max-width: 25rem;
+  border-radius: 6px;
+  background-color: rgb(144, 214, 241);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.datatable {
+  margin: 1em auto;
+  width: 80%;
+  border-radius: 10px;
+  padding: 1em;
+  text-align: center;
+}
+.newmember {
+  text-align: center;
+}
+
+.editMovie {
+  text-decoration: double;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.input {
+  padding: 1em;
+  margin: 1em;
+}
+
+.btnBack {
+  margin-left: 0;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 38px;
+  margin: 0px 0px 0px 0px;
+  line-height: 120%;
+  font-family: "Open sans", sans-serif;
+  color: black;
+  margin: 2rem auto;
+}
